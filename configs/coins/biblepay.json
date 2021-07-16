@@ -23,9 +23,9 @@
     "package_revision": "satoshilabs-1",
     "system_user": "bbp",
     "version": "1.6.2.5",
-    "binary_url": "https://github.com/biblepay/biblepay/releases/download/1.6.2.5/bbp-lin64.zip",
+    "binary_url": "https://www.dropbox.com/s/yn0tnvlpdd4b1c0/biblepay-1.6.2.5.tar.gz?dl=1",
     "verification_type": "sha256",
-    "verification_source": "82a762e907e102775ba7f920d69ce2288477d781098c8062b7e728eb18e4597a",
+    "verification_source": "8ec5f4a25164601afce5b634e29a33cc1f21041dcfde01e2a272684d68ecf1fe",
     "extract_command": "tar -C backend --strip 1 -xf",
     "exclude_files": [
       "bin/biblepay-qt"
