@@ -13,6 +13,7 @@ import (
 	"github.com/trezor/blockbook/bchain"
 	"github.com/trezor/blockbook/bchain/coins/bch"
 	"github.com/trezor/blockbook/bchain/coins/bellcoin"
+	"github.com/trezor/blockbook/bchain/coins/biblepay"	
 	"github.com/trezor/blockbook/bchain/coins/bitcore"
 	"github.com/trezor/blockbook/bchain/coins/bitzeny"
 	"github.com/trezor/blockbook/bchain/coins/btc"
@@ -71,7 +72,7 @@ func init() {
 	BlockChainFactories["Ethereum Testnet Goerli"] = eth.NewEthereumRPC
 	BlockChainFactories["Bcash"] = bch.NewBCashRPC
 	BlockChainFactories["Bcash Testnet"] = bch.NewBCashRPC
-	BlockChainFactories["Biblepay"] = bch.NewBiblepayRPC
+	BlockChainFactories["Biblepay"] = biblepay.NewBiblepayRPC
 	BlockChainFactories["Bgold"] = btg.NewBGoldRPC
 	BlockChainFactories["Bgold Testnet"] = btg.NewBGoldRPC
 	BlockChainFactories["Dash"] = dash.NewDashRPC
