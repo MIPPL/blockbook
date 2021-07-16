@@ -7,13 +7,13 @@ import (
 	"encoding/hex"
 	"fmt"
 	"io/ioutil"
-	"math/big"
+	//"math/big"
 	"path/filepath"
-	"reflect"
+	//"reflect"
 	"testing"
 
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
+	//"github.com/trezor/blockbook/bchain"
+	//"github.com/trezor/blockbook/bchain/coins/btc"
 )
 
 type testBlock struct {
