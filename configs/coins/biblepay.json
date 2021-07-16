@@ -26,7 +26,7 @@
     "binary_url": "https://www.dropbox.com/s/yn0tnvlpdd4b1c0/biblepay-1.6.2.5.tar.gz?dl=1",
     "verification_type": "sha256",
     "verification_source": "8ec5f4a25164601afce5b634e29a33cc1f21041dcfde01e2a272684d68ecf1fe",
-    "extract_command": "tar -C backend --strip 1 -xf",
+    "extract_command": "tar -C backend -xzf",
     "exec_command_template": "{{.Env.BackendInstallPath}}/{{.Coin.Alias}}/bin/biblepayd -datadir={{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend -conf={{.Env.BackendInstallPath}}/{{.Coin.Alias}}/{{.Coin.Alias}}.conf -pid=/run/{{.Coin.Alias}}/{{.Coin.Alias}}.pid",
     "logrotate_files_template": "{{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/*.log",
     "postinst_script_template": "",
