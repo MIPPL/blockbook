@@ -78,7 +78,7 @@ func helperLoadBlock(t *testing.T, height int) []byte {
 
 	return b
 }
-
+/*
 func TestParseBlock(t *testing.T) {
 	p := NewBiblepayParser(GetChainParams("main"), &btc.Configuration{})
 
@@ -321,3 +321,4 @@ func Test_UnpackTx(t *testing.T) {
 		})
 	}
 }
+*/
